@@ -87,5 +87,6 @@ print(round(6.4))
 #this is how to convert a particular number to a binary string, use "bin"
 print(bin(344)) 
 
-from math import *
+#python has also a built-in module called math which extends the list of mathematical functions
+from math import * 
 print(sqrt(100))
