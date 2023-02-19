@@ -61,6 +61,31 @@ print(type(a))
 print(type(b))
 print(type(c))
 
+#--------------------------------
+num1 = 79
+num2 = 1
 
+print(num1 + num2) 
 
-#Arithmetic Operators and Expressions
+#this is how to convert an integers to string
+number1 = 55 #this is a string
+number2 = str(number1) #you need to type "str" short for string to convert the interger to string
+print("this is now a string " + number2) 
+
+#Function - is just a block of code which does a particulae task
+
+#basic way to get the MAXIMUM and MINIMUM
+#this is how to get the max (maximum) or the higher number
+print(max(5, 3, 9, 2))
+
+#this is how to get the min (minimum) or the lowest number
+print(min(5, 3, 9, 2))
+
+#this is how to estimate a number, we use "round"
+print(round(6.4))
+
+#this is how to convert a particular number to a binary string, use "bin"
+print(bin(344)) 
+
+from math import *
+print(sqrt(100))
