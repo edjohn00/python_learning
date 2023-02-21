@@ -29,5 +29,12 @@ print(countries)
 print(len(countries))
 
 #also in list we can mix defferent data type in the list
-countries2 = [1, "USA", "Japan", 10, "Korea", 5, "Canada", True]
-print(countries2)
+mix_variables1 = [1, "USA", "Japan", 5, "Canada", True]
+print(mix_variables1)
+print(type(mix_variables1))
+
+
+#we have a two types of printing list one is using square bracket and two is using a round bracket syntax list((""))
+mix_variables2 = list(("Anna", 100, False))
+print(mix_variables2)
+print(type(mix_variables2))
