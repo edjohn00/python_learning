@@ -37,3 +37,28 @@ print(list_fruits.index("orange"))
 #return the number of times the value "banana" appears in the fruits list
 print(list_fruits.count("banana"))
 
+#sort() method sorts the list ascending by default
+#sort the list number by order and name by alphabetically
+num = [8, 2, 4, 7, 5, 1, 3, 0, 9 ]
+num.sort()
+print(num)
+name1 = ["Smith", "Williams", "Brown", "Jones", "Garcia", "Miller", "Gomez"]
+name1.sort()
+print(name1)
+
+#reverse() method recverses the sorting order of the elements
+#reverse the order of number and name list
+num.reverse()
+print(num)
+name1.reverse()
+print(name1)
+
+#copy() method returns a copy of the specified list
+#copy the name list
+name2 = name1.copy()
+#print(name2)
+
+#pop() method removes the elements the element at the specified position
+#remove the first elements of the name2 list
+name2.pop(0)
+print(name2)
