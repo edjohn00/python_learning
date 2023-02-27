@@ -18,4 +18,17 @@ def persons_name(name1, name2, name3):
     print("name1: " + name1)
     print("name2: " + name2)
     print("name3: " + name3)
-persons_name("Anna", "Ken", "Jana" )
+persons_name("Anna", "Ken", "Jana")
+
+def best_album(album1, album2, album3):
+    print("this is the best song of Taylor's Album: ")
+    print("From Album: " + album1 + ", " + album2 + ", " + album3)
+best_album("Red", "Lover", "Evermore")
+
+#you can also create a user input type in fuction
+def person_info(name, age, address):
+    print("Hi my name is " + name + " I am " + age + " yrs old and live in " + address )
+name = input("Your Name: ")
+age = input("Your Age: ")
+address = input("Your Address: ")
+person_info(name, age, address)
