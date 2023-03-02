@@ -47,7 +47,7 @@ num1 = input("Enter first number: ")
 num2 = input("Enter second number: ")
 
 if num1 < num2:
-    print("Num1 is less tahn Num2")
+    print("Num1 is less than Num2")
 elif num1 > num2:
     print("Num1 is greater than Num2")
 else:
