@@ -1,3 +1,13 @@
+#Arithmetic Operations
+#Addition: +
+#Subtraction: -
+#Multiplication: *
+#Exponent: **
+#Division: /
+#Floor Division: //
+#Remainder
+
+
 #Python Numbers
 x = 1    # int
 y = 2.8  # float
