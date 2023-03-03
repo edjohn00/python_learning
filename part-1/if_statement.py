@@ -1,11 +1,11 @@
 #if statement is basically just giving python a condition, these condition can be used in several ways, most commonly in "if statements" ang loops
 #Python Conditions and If statements (the usual logical conditions from mathematics)
-    # Less than: a < b
-    # Greater than: a > b
-    # Less than or equal to: a <= b
-    # Greater than or equal to: a >= b
-    # Equals: a == b
-    # Not Equals: a != b
+    # Less than: < 
+    # Greater than: >
+    # Less than or equal to: <=
+    # Greater than or equal to: >=
+    # Equals: ==
+    # Not Equals: !=
 #If
 #this conditionas can be used in several ways, most commonly in "if statements and loop" and it is written by using the if keywords
 a = 10
