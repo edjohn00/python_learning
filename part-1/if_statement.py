@@ -57,25 +57,6 @@ elif num1 > num2:
 else:
     print("Num1 and Num2 is equal")
 
-
-#SELF EXERCISE (create a simple grading system using if, elif and else)
-# more than or equal to 98 (with high honor)
-# more than or equal to 90 (with honor)
-# more than or equal to 75 (passed)
-# less than or equal to 74 (fail)
-grade = int(input("Enter your grade: "))
-
-if grade > 100 or grade < 0:
-    print("Grade is invalid!")
-elif grade >= 98:
-    print("You are in with high honor")
-elif grade >= 90:
-    print("Your are in with honor")
-elif grade >= 75:
-    print("You are passed")
-else:
-    print("You failed")
-
 #Exercise create that tell to user weather it's passed or failed, if your score is 50 or more
 score = int(input("Enter you score: "))
 
