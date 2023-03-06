@@ -17,6 +17,6 @@ elif grade >= 90:
 elif grade >= 75:
     print("Congrats you are passed this semester, study hard more")
 else:
-    print("Your failed this semester")
+    print("You failed this semester, try again.")
 
     
