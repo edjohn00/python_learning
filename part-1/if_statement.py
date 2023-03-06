@@ -6,6 +6,10 @@
     # Greater than or equal to: >=
     # Equals: ==
     # Not Equals: !=
+    # AND: True if both operands are True
+    # OR: True if either of the operands is True
+    # NOT: True if the operand is False
+
 #If
 #this conditionas can be used in several ways, most commonly in "if statements and loop" and it is written by using the if keywords
 a = 10
@@ -52,6 +56,63 @@ elif num1 > num2:
     print("Num1 is greater than Num2")
 else:
     print("Num1 and Num2 is equal")
+
+
+#SELF EXERCISE (create a simple grading system using if, elif and else)
+# more than or equal to 98 (with high honor)
+# more than or equal to 90 (with honor)
+# more than or equal to 75 (passed)
+# less than or equal to 74 (fail)
+grade = int(input("Enter your grade: "))
+
+if grade > 100 or grade < 0:
+    print("Grade is invalid!")
+elif grade >= 98:
+    print("You are in with high honor")
+elif grade >= 90:
+    print("Your are in with honor")
+elif grade >= 75:
+    print("You are passed")
+else:
+    print("You failed")
+
+#Exercise create that tell to user weather it's passed or failed, if your score is 50 or more
+score = int(input("Enter you score: "))
+
+if score >100 or score <0:
+    print("Score is invalid!!")
+elif score >= 50:
+    print("You have passed the exam!")
+    print("Congrats")
+else:
+    print("You failed, Try again")
+
+#this is how you can check wheather is string or integers
+
+value1 = input("Input a value: ") # if you want to check string you don't need to convert it to intergers
+
+if type(value1) == str:
+    print(value1 + " is a string")
+else:
+    print(value1 , " is not a string")
+
+#to check if the intergers is devided by 5
+value2 = int(input("Input a value you want to convert: "))
+
+if value2 %5 == 0:
+    print(value2 , " can be divided by 5")
+else:
+    print(value2 , " can't divided by 5")
+
+#check if the length of the sentence us less than 10
+sentence = input("Input a sentence: ")
+
+if sentence < 10:
+    print(sentence + "this sentence is less than 10")
+else:
+    print(sentence + "is more than 10")
+
+
 
 
 
