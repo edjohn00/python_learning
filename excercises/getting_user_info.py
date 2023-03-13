@@ -10,5 +10,5 @@ address = input("Enter your address: ")
 number = int(input("Enter your number: "))
 
 print("\nThis is your personal information check it: ")
-print("Name -" + firstName +  lastName + "\nAge - " + str(age) + "\nGenter - " + gender)
+print("Name - " + firstName + " " + lastName + "\nAge - " + str(age) + "\nGenter - " + gender)
 print("Address - " + address + "\nNumber - " + str(number))
