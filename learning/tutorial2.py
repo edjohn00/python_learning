@@ -101,7 +101,7 @@ print(courses2ndSem)
             listTwo = ["value1", "value2", "value3"]
             listThree = listOne + listTwow
 
-    COMBINING List BY PPEND() - append() combines list by appending the specified list to the end of the first list
+    COMBINING List BY APPEND() - append() combines list by appending the specified list to the end of the first list
     syntax: listOne = ["value1", "value2", "value3"]
             listTwo = ["value1", "value2", "value3"]
             listOne.append(listTwo)
@@ -140,7 +140,43 @@ print(gradeOneStudents)
     NESTED List - a list inside a list also known as sublist
     syntax: identifier = ["value1", "value2", "value3", ["value1", "value2", "value3"]]
 '''
+#                                           fighter                                        marksman                                      mage
+mobileLegendHeros = ["Balmond", "Freya", "Yen", "Alpha", "Aulus", "X-bord",["Wanwan", "Miya", "Beatrix", "Clint",["Edith","Roger"]], ["Kagura", "Valir", "Lunox", "Kadita"]]
+#                       0          1       2       3        4         5    6   0        1         2         3    4   0       1       7    0        1        2         3
+print(mobileLegendHeros)
+#print only marksmans
+print(mobileLegendHeros[6])
+#print only mages
+print(mobileLegendHeros[7])
+#print only figthers
+print(mobileLegendHeros[0:6])
+#print kagura only in mages list
+print(mobileLegendHeros[7][0])
+#print only edith from marksmans list
+print(mobileLegendHeros[6][4][0])
+ 
+'''
+    Tuples - a Read-ONLY Collection of variables that may be used to sort certain data
+    syntax: identifier = (value, value, value)
+            list = ("Jane", "John", "Jojo")
 
+           - in turple you can't be assigned and can't delete one by one
+
+    Casting TUPLES and LISTS
+        Convert List to Tuple
+        tuple(list)
+
+        Convert Tuples to Lists
+        list(tuple)
+'''
+phone = ("IPhone", "Samsung", "Realme", "Oppo")
+print(phone)
+
+phone = list(phone) #convert turple to list
+print(phone)
+
+phone.insert(0, "Cherry Mobile")
+print(phone)
 
 
 
