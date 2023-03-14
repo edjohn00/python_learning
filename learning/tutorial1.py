@@ -61,4 +61,4 @@ num1 = int(input("First Number: "))
 num2 = int(input("Second Number: "))
 
 result = num1 - num2
-print(num1 + "-" + num2 + "=" + result)
+print(num1, "-", num2, "=", result)
