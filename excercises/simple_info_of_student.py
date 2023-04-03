@@ -57,4 +57,4 @@ students = [studentsOne, studentsThree, studentsFour]
 print(students)
 
 #create a nested list 
-print(studentsOne.get("personalInfo").get("age"))
+print(studentsOne.get("personalInfo"))
