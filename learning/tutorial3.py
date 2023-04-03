@@ -136,9 +136,8 @@ print(evenNumbers.issuperset(numbers))
 '''
     Casting Sets - you can cast Sets to Turples or List VICEVERSA in the same way you cast other variables
 '''
-mixedDataTypes = {"integers", "boolean", "string", {1, 2, 3, 4, 5}, {True, False}, {"John", "Mark", "Levy", "Jojo"}}
-
- 
+dataTypes = {"String", "List", "Boolean",{"John", "Deo", "Ken"}}
+print(dataTypes)
 
 
 
