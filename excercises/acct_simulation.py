@@ -16,3 +16,15 @@
 
     USE 1 FOR LOOP ONLY
 """
+username = ["John", "Alenere", "David"]
+password = ["abc123", "123abc", "hahatdogka"]
+
+acctUserName = input("Enter Your Username: ")
+acctPass = input("Enter Your Password: ")
+
+for account in range(len(username)):
+    if acctUserName == username[account] and acctPass == password[account]:
+        print("Welcome " + username[account])
+        break
+else:
+    print("Account Not Found")
