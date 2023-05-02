@@ -29,13 +29,22 @@
 #     print()
 
 
-course = [
+course = [      
     ["BSIT", ["David", "Allenere"]],
     ["BSCS", ["Jaymar", "Emman", "Patrick"]]
 ]
 
+# for newCourse in course:
+#     print(newCourse[0])
+#     for student in newCourse[1]:
+#         print("   -" + student)
+#     print()
+
+# for newCourse in range(course):
+#     for student in range(newCourse):
+#         print(course[newCourse][student])
+
 for newCourse in course:
     print(newCourse[0])
     for student in newCourse[1]:
-        print("   -" + student)
-    print()
+        print(student)

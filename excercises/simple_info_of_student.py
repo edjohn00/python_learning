@@ -43,7 +43,7 @@ studentsFive = {
 }
 
 #display studentFive
-#print(studentsFive)
+# print(studentsFive)
 
 #print studentTwo and display the teacher of student
 #print(studentsTwo["teacher"])
@@ -53,8 +53,11 @@ studentsFive = {
 #print(studentsOne)
 
 #store the students that isEnroll in one container name students
-students = [studentsOne, studentsThree, studentsFour]
-print(students)
+# students = [studentsOne, studentsThree, studentsFour]
+# print(students)
 
-#create a nested list 
-print(studentsOne.get("personalInfo"))
+# #create a nested list 
+# print(studentsOne.get("personalInfo"))
+
+for newstudent in studentsOne:
+    print(studentsOne[newstudent])
