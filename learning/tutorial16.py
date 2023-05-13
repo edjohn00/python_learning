@@ -12,6 +12,13 @@
         a2 = input()                                            pOne = Person(name)
         Identifier = className(a1, a2 )
 """
+# class Person:
+#     def __init__(self, name):
+#         self.name = name
+#         print(self.name + " created!")
+
+# name = input("Enter a Name: ")
+# personOne = Person(name)
 
 """
     Store Objects in Collection 
@@ -27,7 +34,15 @@
 
         listOfX = [x1,x2.x3]                                    listOfPeople = [pOne, pTwo, pThree]
 """
+# class Person:
+#     def __init__(self, name):
+#         self.name = name
 
+# personOne = Person("David")
+# personTwo = Person("Jane")
+# personThree = Person("Jaymar")
+
+# listOfPeople = [personOne, personTwo, personThree]
 """
     Read Objects in Collection
     Syntax:                                                 Example:
@@ -44,6 +59,20 @@
 
         print(listOfX[index].attribute)                         print(listOfPeople[0].name)
 """
+# class Person:
+#     def __init__(self, name):
+#         self.name = name
+
+#     def introduce(self):
+#         print("I'm " + self.name)
+
+# personOne = Person("David")
+# personTwo = Person("Jane")
+# personThree = Person("Jaymar")
+
+# listOfPeople = [personOne, personTwo, personThree]
+
+# listOfPeople[1].introduce()
 
 """
     Using Loop To Read Collections
@@ -59,7 +88,21 @@
 
         listOfPeople = [p1, p2, p3]
 """
+# class Person:
+#     def __init__(self, name):
+#         self.name = name
 
+#     def introduce(self):
+#         print("I'm " + self.name)
+
+# personOne = Person("David")
+# personTwo = Person("Jane")
+# personThree = Person("Jaymar")
+
+# listOfPeople = [personOne, personTwo, personThree]
+
+# for person in listOfPeople:
+#     print(person.name)
 
 """
     Using Loop To Write in Collection
@@ -71,3 +114,20 @@
                                                                 listOfPeople.append(p)
         listOfPeople = []
 """
+
+class Person:
+    def __init__(self, name):
+        self.name = name
+
+    def introduce(self):
+        # print("Hi I'm " + self.name)
+
+listOfPerson = []
+
+for i in range(3):
+    name = input("Enter a Name: ")
+    personName = Person(name)
+    listOfPerson.append(personName)
+
+for person in listOfPerson:
+    print(person)
