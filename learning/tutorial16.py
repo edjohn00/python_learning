@@ -120,7 +120,7 @@ class Person:
         self.name = name
 
     def introduce(self):
-        # print("Hi I'm " + self.name)
+        print("Hi I'm " + self.name)
 
 listOfPerson = []
 
@@ -130,4 +130,4 @@ for i in range(3):
     listOfPerson.append(personName)
 
 for person in listOfPerson:
-    print(person)
+    person.introduce()
